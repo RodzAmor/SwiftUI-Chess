@@ -11,6 +11,9 @@
 		AD37E8A928B01726001C73BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37E8A828B01726001C73BD /* ContentView.swift */; };
 		AD37E8AB28B0172A001C73BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD37E8AA28B0172A001C73BD /* Assets.xcassets */; };
 		AD37E8AE28B0172A001C73BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD37E8AD28B0172A001C73BD /* Preview Assets.xcassets */; };
+		ADBED90428B719C400226B34 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBED90328B719C400226B34 /* Piece.swift */; };
+		ADBED90628B71C0C00226B34 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBED90528B71C0C00226B34 /* Tile.swift */; };
+		ADBED90928B7211B00226B34 /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBED90828B7211B00226B34 /* Pawn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		AD37E8A828B01726001C73BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD37E8AA28B0172A001C73BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD37E8AD28B0172A001C73BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADBED90328B719C400226B34 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		ADBED90528B71C0C00226B34 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		ADBED90828B7211B00226B34 /* Pawn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pawn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,8 @@
 			children = (
 				AD37E8A628B01726001C73BD /* ChessApp.swift */,
 				AD37E8A828B01726001C73BD /* ContentView.swift */,
+				ADBED90728B7210400226B34 /* Pieces */,
+				ADBED90528B71C0C00226B34 /* Tile.swift */,
 				AD37E8AA28B0172A001C73BD /* Assets.xcassets */,
 				AD37E8AC28B0172A001C73BD /* Preview Content */,
 			);
@@ -65,6 +73,15 @@
 				AD37E8AD28B0172A001C73BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADBED90728B7210400226B34 /* Pieces */ = {
+			isa = PBXGroup;
+			children = (
+				ADBED90328B719C400226B34 /* Piece.swift */,
+				ADBED90828B7211B00226B34 /* Pawn.swift */,
+			);
+			path = Pieces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +156,9 @@
 			files = (
 				AD37E8A928B01726001C73BD /* ContentView.swift in Sources */,
 				AD37E8A728B01726001C73BD /* ChessApp.swift in Sources */,
+				ADBED90428B719C400226B34 /* Piece.swift in Sources */,
+				ADBED90928B7211B00226B34 /* Pawn.swift in Sources */,
+				ADBED90628B71C0C00226B34 /* Tile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
